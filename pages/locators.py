@@ -12,5 +12,6 @@ class ProductPageLocators():
     ADD_TO_CART_BTN = (By.CSS_SELECTOR, "button.btn-add-to-basket")
     BOOKNAME = (By.CSS_SELECTOR, "div.product_main>h1")
     PRICE = (By.CSS_SELECTOR, "div.product_main>p.price_color")
-    BOOKNAME_ALERT = (By.CSS_SELECTOR, ".alert:first-child .alertinner")
-    PRICE_ALERT = (By.CSS_SELECTOR, ".alert:last-child .alertinner")
+    BOOKNAME_ALERT = (By.CSS_SELECTOR, ".alert:first-child .alertinner strong")
+    PRICE_ALERT = (By.CSS_SELECTOR, ".alert:last-child .alertinner strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
